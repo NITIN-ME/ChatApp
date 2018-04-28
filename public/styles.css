@@ -1,0 +1,70 @@
+body{
+    font-family: 'Nunito';
+}
+
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#mario-chat{
+    max-width: 400px;
+    margin: 30px auto;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+	border: 1px solid blue;
+	background-color:#0ac1ff;
+}
+
+#chat-window{
+    height: 260px;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #575ed8;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+h2{
+	text-align: center;
+	background-color:#0ac1ff;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #eee;
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    background: #fff;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button{
+    background: #6918cc;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+}
